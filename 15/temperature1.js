@@ -16,7 +16,20 @@ for (let i = 0; i < cities.length; i++) {
     listContainer.append(listItem);
 }
 
+temperatures.sort(function (a, b) {
+    return a - b;
+});
 
+console.log(temperatures); 
+
+let maxTemperature = temperatures[temperatures.length-1];
+let minTemperature = temperatures[0];
+
+let tempMax = document.getElementById('tMax')
+tempMax.innerHTML = `Максимальная температура: ${maxTemperature} °C`;
+
+let tempMin = document.getElementById('tMin')
+tempMin.innerHTML = `Минимальная температура: ${minTemperature} °C`;
 
 
 
