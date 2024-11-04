@@ -1,0 +1,75 @@
+@font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: 'IBM Plex Sans';
+    src: url('assets/fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf')
+}
+
+.contacts__form {
+    font-family: 'IBM Plex Sans';
+    width: 70%;
+    background-image: linear-gradient(to right, #B86ADF, #FF6C63, #FFB147);
+    /*height: 90%;*/
+    padding: 60px;
+    color: white;
+    /*flex-direction: column;*/
+    /*display: flex;
+    justify-content: space-around;*/
+
+}
+
+.contacts__form h1 {font-size: 1.8vw; margin-bottom: 60px; font-family: 'IBM Plex Sans';}
+
+.contacts__form-input {
+    background: none;
+    border-width: 0 0 1px 0;
+    border-bottom: #fff 1px solid;
+    color: #fff;
+    margin-right: 30px;
+    height: 35px;
+    /*box-shadow: 0 3px 3px -3px #fff;*/
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+}
+
+input {outline: none;}
+
+.contacts__form-input::placeholder, .contacts__form-txtarea::placeholder {color: #fff;}
+
+.contacts__form-input:active {background: none;}
+
+.contacts__form-txtarea {
+    margin-bottom: 40px;
+    margin-top: 60px;
+    border: none;
+    background: none;
+    color: #fff;
+    width: 80%;
+    height: 60px;
+    border-bottom: #fff 1px solid;
+}
+
+.contacts__form-txtarea:active {border: 0cm; box-shadow: none;}
+
+textarea {outline: none;}
+
+.form__btn {
+    background-color: #000;
+    width: 211px;
+    height: 56px;
+    /*font-family: IBM Plex Sans;*/
+    font-size: 18px;
+    border: 0;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    img {
+        margin-left: 10px;
+    }
+}
+
+
