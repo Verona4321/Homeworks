@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            <h1>Что будем искать?</h1>
+                <select name="searchObject">
+                    <option disabled selected value="failure">Выбери свой путь</option>
+                    <option value="people">Люди</option>
+                    <option value="planets">Планеты</option>
+                    <option value="films">Фильмы</option>
+                </select>
+                <div>
+                    <input name="number" type="number" placeholder="Число судьбы">
+                </div>
+            <p class="valErr"></p>
+            <p class="numErr"></p>
+            <button type="submit">Узнать</button>
+        </form>
+        <section class="result"></section>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
+
+
+
+<style>
+    form {margin: 0 auto;}
+</style>
