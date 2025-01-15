@@ -31,7 +31,7 @@ const data = {
     ],
 };
 
-// Опции для настройки диаграммы (по желанию)
+
 const options = {
     plugins: {
         legend: {
@@ -52,49 +52,3 @@ const MyChart = () => {
 
 export default MyChart;
 
-
-// src/MyChart.js
-// import React from 'react';
-// import { Bar } from 'react-chartjs-2';
-// import { Chart as ChartJS, CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend } from 'chart.js';
-
-// // Регистрация компонентов Chart.js
-// ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend);
-
-// const MyChart = () => {
-//     // Данные для графика
-//     const data = {
-//         labels: ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь'],
-//         datasets: [
-//             {
-//                 label: 'Продажи',
-//                 data: [12, 19, 3, 5, 2, 3],
-//                 backgroundColor: 'rgba(75, 192, 192, 0.6)',
-//                 borderColor: 'rgba(75, 192, 192, 1)',
-//                 borderWidth: 1,
-//             }
-//         ],
-//     };
-
-//     // Опции графика
-//     const options = {
-//         responsive: true,
-//         plugins: {
-//             legend: {
-//                 position: 'top',
-//             },
-//             title: {
-//                 display: true,
-//                 text: 'Продажи по месяцам',
-//             },
-//         },
-//     };
-
-//     return (
-//         <div>
-//             <Bar data={data} options={options} />
-//         </div>
-//     );
-// };
-
-// export default MyChart;
